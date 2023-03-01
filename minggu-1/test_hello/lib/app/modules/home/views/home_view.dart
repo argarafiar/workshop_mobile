@@ -9,27 +9,25 @@ class HomeView extends GetView<HomeController> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('HomeView'),
-        centerTitle: true,
-      ),
-      body: ListView(
-        children: [
-          ListTile(
-            leading: CircleAvatar(child: Icon(Icons.arrow_back),),
-            title: Text("Arga"),
-          ),
-          ListTile(
-            leading: CircleAvatar(child: Icon(Icons.arrow_back),),
-            title: Text("Arga"),
-          ),
-          ListTile(
-            leading: CircleAvatar(child: Icon(Icons.arrow_back),),
-            title: Text("Arga"),
-            subtitle: Text("Asu"),
-          ),
-        ],
-      )
-    );
+        appBar: AppBar(
+          title: const Text('HomeView'),
+          centerTitle: true,
+        ),
+        body: ListView(
+          children: [
+            ListTile(
+              leading: CircleAvatar(
+                child: Icon(Icons.arrow_back),
+              ),
+              title: Text("Arga"),
+            ),
+            ListTile(
+              leading: CircleAvatar(
+                child: Icon(Icons.arrow_back),
+              ),
+              title: Text("Hello World"),
+            ),
+          ],
+        ));
   }
 }
