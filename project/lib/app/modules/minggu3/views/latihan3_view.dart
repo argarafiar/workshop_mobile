@@ -4,8 +4,8 @@ import 'package:get/get.dart';
 
 import '../controllers/minggu3_controller.dart';
 
-class Minggu3View extends GetView<Minggu3Controller> {
-  const Minggu3View({Key? key}) : super(key: key);
+class Latihan3View extends GetView {
+  const Latihan3View({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -195,6 +195,156 @@ class Minggu3View extends GetView<Minggu3Controller> {
                         "assets/images/minggu3/its1.jpg",
                         "assets/images/minggu3/its2.jpg",
                         "assets/images/minggu3/its3.jpeg",
+                      ],
+                    },
+                  );
+                },
+              ),
+            ),
+            Card(
+              child: ListTile(
+                leading: Container(
+                  width: 100,
+                  height: double.infinity,
+                  decoration: BoxDecoration(
+                    image: DecorationImage(
+                      //pakai image asset
+                      image: AssetImage("assets/images/minggu3/ciputra.jpg"),
+                      fit: BoxFit.cover,
+                    ),
+                  ),
+                ),
+                title: Text("Universitas Ciputra"),
+                subtitle:
+                    Text("CitraLand CBD Boulevard, Made, Kec. Sambikerep"),
+                onTap: () {
+                  Get.toNamed(
+                    "/detailkampus",
+                    arguments: {
+                      "nama": "Universitas Ciputra",
+                      "alamat":
+                          "CitraLand CBD Boulevard, Made, Kec. Sambikerep",
+                      "hari": "Open Everyday",
+                      "jam": "08.00 - 17.00",
+                      "tiket": "Free",
+                      "banner": "assets/images/minggu3/ciputra.jpg",
+                      "deskripsi":
+                          "UC adalah universitas swasta di Surabaya, fokus pada bisnis, teknologi, dan desain dengan kurikulum yang mendukung kewirausahaan. UC menawarkan program internasional dan memiliki fasilitas yang lengkap seperti laboratorium, studio desain, dan perpustakaan.",
+                      "galery": [
+                        "assets/images/minggu3/ciputra1.jpeg",
+                        "assets/images/minggu3/ciputra2.jpg",
+                        "assets/images/minggu3/ciputra3.jpg",
+                      ],
+                    },
+                  );
+                },
+              ),
+            ),
+            Card(
+              child: ListTile(
+                leading: Container(
+                  width: 100,
+                  height: double.infinity,
+                  decoration: BoxDecoration(
+                    image: DecorationImage(
+                      //pakai image asset
+                      image: AssetImage("assets/images/minggu3/ubaya.jpg"),
+                      fit: BoxFit.cover,
+                    ),
+                  ),
+                ),
+                title: Text("Universitas Surabaya"),
+                subtitle: Text("Jl. Raya Kalirungkut, Kali Rungkut"),
+                onTap: () {
+                  Get.toNamed(
+                    "/detailkampus",
+                    arguments: {
+                      "nama": "Universitas Surabaya",
+                      "alamat": "Jl. Raya Kalirungkut, Kali Rungkut",
+                      "hari": "Open Everyday",
+                      "jam": "08.00 - 17.00",
+                      "tiket": "Free",
+                      "banner": "assets/images/minggu3/ubaya.jpg",
+                      "deskripsi":
+                          "UBAYA adalah perguruan tinggi swasta di Surabaya dengan kampus di Tenggilis dan Rungkut, menawarkan program studi dari tingkat sarjana hingga pasca sarjana di berbagai bidang. Kampus ini juga memiliki berbagai kegiatan dan fasilitas untuk mendukung pengembangan akademik, organisasi, dan kegiatan sosial bagi mahasiswa dan masyarakat umum, serta sering mengadakan kegiatan kewirausahaan dan riset.",
+                      "galery": [
+                        "assets/images/minggu3/ubaya1.jpg",
+                        "assets/images/minggu3/ubaya2.jpg",
+                        "assets/images/minggu3/ubaya3.jpg",
+                      ],
+                    },
+                  );
+                },
+              ),
+            ),
+            Card(
+              child: ListTile(
+                leading: Container(
+                  width: 100,
+                  height: double.infinity,
+                  decoration: BoxDecoration(
+                    image: DecorationImage(
+                      //pakai image asset
+                      image: AssetImage("assets/images/minggu3/uinsa.jpg"),
+                      fit: BoxFit.cover,
+                    ),
+                  ),
+                ),
+                title: Text("Universitas Sunan Ampel"),
+                subtitle: Text("Jl. Ahmad Yani No.117, Jemur Wonosari"),
+                onTap: () {
+                  Get.toNamed(
+                    "/detailkampus",
+                    arguments: {
+                      "nama": "Universitas Sunan Ampel",
+                      "alamat": "Jl. Ahmad Yani No.117, Jemur Wonosari",
+                      "hari": "Open Everyday",
+                      "jam": "08.00 - 17.00",
+                      "tiket": "Free",
+                      "banner": "assets/images/minggu3/uinsa.jpg",
+                      "deskripsi":
+                          "UINSA adalah kampus Islam di Surabaya dengan beberapa fakultas dan program studi terkait agama Islam dan ilmu sosial-humaniora. Fasilitas lengkap seperti perpustakaan, laboratorium, dan pusat olahraga juga tersedia. Didukung oleh staf pengajar yang berkualitas dan lingkungan yang nyaman dan hijau.",
+                      "galery": [
+                        "assets/images/minggu3/uinsa1.jpg",
+                        "assets/images/minggu3/uinsa2.jpg",
+                        "assets/images/minggu3/uinsa3.jpg",
+                      ],
+                    },
+                  );
+                },
+              ),
+            ),
+            Card(
+              child: ListTile(
+                leading: Container(
+                  width: 100,
+                  height: double.infinity,
+                  decoration: BoxDecoration(
+                    image: DecorationImage(
+                      //pakai image asset
+                      image: AssetImage("assets/images/minggu3/ppns.jpg"),
+                      fit: BoxFit.cover,
+                    ),
+                  ),
+                ),
+                title: Text("Politeknik Perkapalan Negeri Surabaya"),
+                subtitle: Text("l. Teknik Kimia, Keputih"),
+                onTap: () {
+                  Get.toNamed(
+                    "/detailkampus",
+                    arguments: {
+                      "nama": "Politeknik Perkapalan Negeri Surabaya",
+                      "alamat": "l. Teknik Kimia, Keputih",
+                      "hari": "Open Everyday",
+                      "jam": "08.00 - 17.00",
+                      "tiket": "Free",
+                      "banner": "assets/images/minggu3/ppns.jpg",
+                      "deskripsi":
+                          "PPNS adalah kampus negeri di Surabaya yang fokus pada bidang teknik perkapalan dan kelautan, menawarkan program studi Diploma III dan IV, serta memiliki fasilitas lengkap dan kerjasama dengan industri perkapalan dan kelautan terkemuka di Indonesia.",
+                      "galery": [
+                        "assets/images/minggu3/ppns1.jpg",
+                        "assets/images/minggu3/ppns2.jpg",
+                        "assets/images/minggu3/ppns3.jpg",
                       ],
                     },
                   );

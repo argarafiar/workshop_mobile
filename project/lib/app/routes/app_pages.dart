@@ -1,4 +1,6 @@
 import 'package:get/get.dart';
+import 'package:project/app/modules/minggu3/views/detailkampus_view.dart';
+import 'package:project/app/modules/minggu3/views/latihan3_view.dart';
 
 import '../modules/home/bindings/home_binding.dart';
 import '../modules/home/views/home_view.dart';
@@ -46,6 +48,14 @@ class AppPages {
       name: _Paths.MINGGU3,
       page: () => const Minggu3View(),
       binding: Minggu3Binding(),
+    ),
+    GetPage(
+      name: _Paths.DETAILKAMPUS,
+      page: () => const DetailkampusView(),
+    ),
+    GetPage(
+      name: _Paths.LATIHAN3,
+      page: () => const Latihan3View(),
     ),
   ];
 }
