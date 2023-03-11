@@ -103,7 +103,9 @@ class HomeView extends GetView<HomeController> {
                     child: Text("Latihan"),
                   ),
                   ElevatedButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      Get.toNamed("/tugas3");
+                    },
                     child: Text("Tugas"),
                   ),
                 ],

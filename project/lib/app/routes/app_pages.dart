@@ -1,6 +1,7 @@
 import 'package:get/get.dart';
 import 'package:project/app/modules/minggu3/views/detailkampus_view.dart';
 import 'package:project/app/modules/minggu3/views/latihan3_view.dart';
+import 'package:project/app/modules/minggu3/views/tugas3_view.dart';
 
 import '../modules/home/bindings/home_binding.dart';
 import '../modules/home/views/home_view.dart';
@@ -56,6 +57,10 @@ class AppPages {
     GetPage(
       name: _Paths.LATIHAN3,
       page: () => const Latihan3View(),
+    ),
+    GetPage(
+      name: _Paths.TUGAS3,
+      page: () => const Tugas3View(),
     ),
   ];
 }
