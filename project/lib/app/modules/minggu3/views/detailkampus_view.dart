@@ -9,17 +9,18 @@ class DetailkampusView extends GetView {
   Widget build(BuildContext context) {
     //ambil argument dari halaman sebelumnya
     var data = Get.arguments;
+    print(data.nama);
     double paddingTop = context.mediaQuery.padding.top;
     //buat list of widget
     List<Widget> listgalery = [
-      for (var i = 0; i < data["galery"].length; i++)
+      for (var i = 0; i < data.galery.length; i++)
         Container(
           width: Get.width,
           height: 200,
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(20),
             image: DecorationImage(
-              image: AssetImage(data["galery"][i]),
+              image: AssetImage(data.galery[i]),
               fit: BoxFit.cover,
             ),
           ),
@@ -37,7 +38,7 @@ class DetailkampusView extends GetView {
                 height: 200,
                 decoration: BoxDecoration(
                   image: DecorationImage(
-                    image: AssetImage(data["banner"]),
+                    image: AssetImage(data.banner),
                     fit: BoxFit.cover,
                   ),
                 ),
@@ -46,7 +47,7 @@ class DetailkampusView extends GetView {
                 height: 20,
               ),
               Text(
-                "${data["nama"]}",
+                "${data.nama}",
                 style: TextStyle(
                   fontFamily: "Lobster",
                   fontSize: 30,
@@ -64,7 +65,7 @@ class DetailkampusView extends GetView {
                     child: Column(
                       children: [
                         Icon(Icons.calendar_today_rounded),
-                        Text(data["hari"]),
+                        Text(data.hari),
                       ],
                     ),
                   ),
@@ -73,7 +74,7 @@ class DetailkampusView extends GetView {
                     child: Column(
                       children: [
                         Icon(Icons.access_time),
-                        Text(data["jam"]),
+                        Text(data.jam),
                       ],
                     ),
                   ),
@@ -82,7 +83,7 @@ class DetailkampusView extends GetView {
                     child: Column(
                       children: [
                         Icon(Icons.attach_money),
-                        Text(data["tiket"]),
+                        Text(data.tiket),
                       ],
                     ),
                   ),
@@ -90,7 +91,7 @@ class DetailkampusView extends GetView {
               ),
               Padding(
                 padding: const EdgeInsets.all(20),
-                child: Text(data["deskripsi"], textAlign: TextAlign.center),
+                child: Text(data.deskripsi, textAlign: TextAlign.center),
               ),
               SizedBox(
                 height: 20,

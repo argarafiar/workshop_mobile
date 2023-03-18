@@ -32,16 +32,7 @@ class Tugas3View extends GetView {
                 onTap: () {
                   Get.toNamed(
                     "/detailkampus",
-                    arguments: {
-                      "nama": kampus[index].nama,
-                      "alamat": kampus[index].alamat,
-                      "hari": kampus[index].hari,
-                      "jam": kampus[index].jam,
-                      "tiket": kampus[index].tiket,
-                      "banner": kampus[index].banner,
-                      "deskripsi": kampus[index].deskripsi,
-                      "galery": kampus[index].galery,
-                    },
+                    arguments: kampus[index],
                   );
                 },
               ),
