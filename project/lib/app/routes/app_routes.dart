@@ -12,6 +12,8 @@ abstract class Routes {
   static const DETAILKAMPUS = _Paths.DETAILKAMPUS;
   static const LATIHAN3 = _Paths.LATIHAN3;
   static const TUGAS3 = _Paths.TUGAS3;
+  static const MINGGU4 = _Paths.MINGGU4;
+  static const MINGGU4PROVIDER = _Paths.MINGGU4PROVIDER;
 }
 
 abstract class _Paths {
@@ -25,4 +27,6 @@ abstract class _Paths {
   static const DETAILKAMPUS = '/detailkampus';
   static const LATIHAN3 = '/latihan3';
   static const TUGAS3 = '/tugas3';
+  static const MINGGU4 = '/minggu4';
+  static const MINGGU4PROVIDER = '/minggu4provider';
 }

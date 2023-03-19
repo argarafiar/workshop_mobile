@@ -9,6 +9,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   get: 4.6.5
   carousel_slider: 4.2.1
+  provider: 6.0.5
   flutter: 
     sdk: flutter
 
@@ -18,24 +19,11 @@ dev_dependencies:
     sdk: flutter
 
 flutter: 
-  uses-material-design: true
-  fonts:
+  fonts: 
     - family: Lobster
-      fonts:
+      fonts: 
         - asset: assets/fonts/Lobster-Regular.ttf
-  
   assets: 
-  # assets minggu3
     - assets/images/minggu3/
+  uses-material-design: true
 
-  # assets pens
-    # - assets/images/pens.jpg
-    # - assets/images/pens1.jpg
-    # - assets/images/pens2.png
-    # - assets/images/pens3.jpeg
-
-  # assets unesa
-    # - assets/images/unesa.jpg
-    # - assets/images/unesa1.jpg
-    # - assets/images/unesa2.jpg
-    # - assets/images/unesa3.jpeg
