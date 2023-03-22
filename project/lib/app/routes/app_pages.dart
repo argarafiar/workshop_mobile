@@ -16,8 +16,6 @@ import '../modules/minggu3/views/tugas3_view.dart';
 import '../modules/minggu4/bindings/minggu4_binding.dart';
 import '../modules/minggu4/views/donekampus_view.dart';
 import '../modules/minggu4/views/minggu4_view.dart';
-import '../modules/minggu4provider/bindings/minggu4provider_binding.dart';
-import '../modules/minggu4provider/views/minggu4provider_view.dart';
 
 part 'app_routes.dart';
 
@@ -71,11 +69,6 @@ class AppPages {
       name: _Paths.MINGGU4,
       page: () => Minggu4View(),
       binding: Minggu4Binding(),
-    ),
-    GetPage(
-      name: _Paths.MINGGU4PROVIDER,
-      page: () => const Minggu4providerView(),
-      binding: Minggu4providerBinding(),
     ),
   ];
 }

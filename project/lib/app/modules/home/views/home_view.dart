@@ -133,12 +133,6 @@ class HomeView extends GetView<HomeController> {
                     },
                     child: Text("Percobaan setstate"),
                   ),
-                  ElevatedButton(
-                    onPressed: () {
-                      Get.toNamed("/minggu4provider");
-                    },
-                    child: Text("Percobaan provider"),
-                  ),
                 ],
               ),
             ],
