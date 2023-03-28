@@ -1,0 +1,266 @@
+{
+    "status": "ok",
+    "totalResults": 69,
+    "articles": [
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "Bisnis Tempo.co",
+            "title": "Operator Telekomunikasi Tingkatkan Kapasitas Jaringan Hadapi Mudik Lebaran 2023 - Bisnis Tempo.co",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMidGh0dHBzOi8vYmlzbmlzLnRlbXBvLmNvL3JlYWQvMTcwNjk4Ni9vcGVyYXRvci10ZWxla29tdW5pa2FzaS10aW5na2F0a2FuLWthcGFzaXRhcy1qYXJpbmdhbi1oYWRhcGktbXVkaWstbGViYXJhbi0yMDIz0gEA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2023-03-25T10:16:02Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "detikOto",
+            "title": "Mobil Hybrid Tak Dapat Jatah 'Subsidi' Pemerintah, Wuling Bilang Begini - detikOto",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMiamh0dHBzOi8vb3RvLmRldGlrLmNvbS9tb2JpbC9kLTY2Mzc1NTUvbW9iaWwtaHlicmlkLXRhay1kYXBhdC1qYXRhaC1zdWJzaWRpLXBlbWVyaW50YWgtd3VsaW5nLWJpbGFuZy1iZWdpbmnSAW5odHRwczovL290by5kZXRpay5jb20vbW9iaWwvZC02NjM3NTU1L21vYmlsLWh5YnJpZC10YWstZGFwYXQtamF0YWgtc3Vic2lkaS1wZW1lcmludGFoLXd1bGluZy1iaWxhbmctYmVnaW5pL2FtcA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2023-03-25T10:02:27Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "detikFinance",
+            "title": "RI Bakal Kebanjiran 215.000 Ton Gula Kristal Putih dari Thailand-Australia - detikFinance",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMigwFodHRwczovL2ZpbmFuY2UuZGV0aWsuY29tL2Jlcml0YS1la29ub21pLWJpc25pcy9kLTY2Mzc0MDYvcmktYmFrYWwta2ViYW5qaXJhbi0yMTUwMDAtdG9uLWd1bGEta3Jpc3RhbC1wdXRpaC1kYXJpLXRoYWlsYW5kLWF1c3RyYWxpYdIBhwFodHRwczovL2ZpbmFuY2UuZGV0aWsuY29tL2Jlcml0YS1la29ub21pLWJpc25pcy9kLTY2Mzc0MDYvcmktYmFrYWwta2ViYW5qaXJhbi0yMTUwMDAtdG9uLWd1bGEta3Jpc3RhbC1wdXRpaC1kYXJpLXRoYWlsYW5kLWF1c3RyYWxpYS9hbXA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2023-03-25T10:00:57Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "detikInet",
+            "title": "Pendiri Intel dan Legenda Teknologi Gordon Moore Meninggal Dunia - detikInet",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMia2h0dHBzOi8vaW5ldC5kZXRpay5jb20vY3liZXJsaWZlL2QtNjYzNzY1OC9wZW5kaXJpLWludGVsLWRhbi1sZWdlbmRhLXRla25vbG9naS1nb3Jkb24tbW9vcmUtbWVuaW5nZ2FsLWR1bmlh0gFvaHR0cHM6Ly9pbmV0LmRldGlrLmNvbS9jeWJlcmxpZmUvZC02NjM3NjU4L3BlbmRpcmktaW50ZWwtZGFuLWxlZ2VuZGEtdGVrbm9sb2dpLWdvcmRvbi1tb29yZS1tZW5pbmdnYWwtZHVuaWEvYW1w?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2023-03-25T09:45:20Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "detikTravel",
+            "title": "Desain 'Liar' Kelas Ekonomi Pesawat, Bakal Tercipta Enggak Ya? - detikTravel",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMiaWh0dHBzOi8vdHJhdmVsLmRldGlrLmNvbS90cmF2ZWwtbmV3cy9kLTY2Mzc1OTcvZGVzYWluLWxpYXIta2VsYXMtZWtvbm9taS1wZXNhd2F0LWJha2FsLXRlcmNpcHRhLWVuZ2dhay15YdIBbWh0dHBzOi8vdHJhdmVsLmRldGlrLmNvbS90cmF2ZWwtbmV3cy9kLTY2Mzc1OTcvZGVzYWluLWxpYXIta2VsYXMtZWtvbm9taS1wZXNhd2F0LWJha2FsLXRlcmNpcHRhLWVuZ2dhay15YS9hbXA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2023-03-25T09:40:50Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "KOMPAS.com",
+            "title": "10 Keluarga Terkaya di Asia 2023, Siapa Saja Mereka? - Kompas.com - KOMPAS.com",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMicmh0dHBzOi8vd3d3LmtvbXBhcy5jb20vdHJlbi9yZWFkLzIwMjMvMDMvMjUvMTYxMDAwNDY1LzEwLWtlbHVhcmdhLXRlcmtheWEtZGktYXNpYS0yMDIzLXNpYXBhLXNhamEtbWVyZWthLT9wYWdlPWFsbNIBaWh0dHBzOi8vYW1wLmtvbXBhcy5jb20vdHJlbi9yZWFkLzIwMjMvMDMvMjUvMTYxMDAwNDY1LzEwLWtlbHVhcmdhLXRlcmtheWEtZGktYXNpYS0yMDIzLXNpYXBhLXNhamEtbWVyZWthLQ?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2023-03-25T09:10:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "detikInet",
+            "title": "Berapa Harga Kaus yang Dipakai Mark Zuckerberg? Awas Kaget Sendiri! - detikInet",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMibGh0dHBzOi8vaW5ldC5kZXRpay5jb20vY3liZXJsaWZlL2QtNjYzNzUwMS9iZXJhcGEtaGFyZ2Eta2F1cy15YW5nLWRpcGFrYWktbWFyay16dWNrZXJiZXJnLWF3YXMta2FnZXQtc2VuZGlyadIBcGh0dHBzOi8vaW5ldC5kZXRpay5jb20vY3liZXJsaWZlL2QtNjYzNzUwMS9iZXJhcGEtaGFyZ2Eta2F1cy15YW5nLWRpcGFrYWktbWFyay16dWNrZXJiZXJnLWF3YXMta2FnZXQtc2VuZGlyaS9hbXA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2023-03-25T08:45:12Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "detikTravel",
+            "title": "Jangan Sampai Typo, Ini 5 Hal Wajib Saat Beli Tiket Pesawat - detikTravel",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMiaWh0dHBzOi8vdHJhdmVsLmRldGlrLmNvbS90cmF2ZWwtbmV3cy9kLTY2Mzc0ODkvamFuZ2FuLXNhbXBhaS10eXBvLWluaS01LWhhbC13YWppYi1zYWF0LWJlbGktdGlrZXQtcGVzYXdhdNIBbWh0dHBzOi8vdHJhdmVsLmRldGlrLmNvbS90cmF2ZWwtbmV3cy9kLTY2Mzc0ODkvamFuZ2FuLXNhbXBhaS10eXBvLWluaS01LWhhbC13YWppYi1zYWF0LWJlbGktdGlrZXQtcGVzYXdhdC9hbXA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2023-03-25T08:30:05Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "CNN Indonesia",
+            "title": "FOTO: Piring-piring Ramadhan di Jogokariyan - CNN Indonesia",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMibGh0dHBzOi8vd3d3LmNubmluZG9uZXNpYS5jb20vZ2F5YS1oaWR1cC8yMDIzMDMyNTExNTkwMi0yODYtOTI5MjAwL2ZvdG8tcGlyaW5nLXBpcmluZy1yYW1hZGhhbi1kaS1qb2dva2FyaXlhbtIBcGh0dHBzOi8vd3d3LmNubmluZG9uZXNpYS5jb20vZ2F5YS1oaWR1cC8yMDIzMDMyNTExNTkwMi0yODYtOTI5MjAwL2ZvdG8tcGlyaW5nLXBpcmluZy1yYW1hZGhhbi1kaS1qb2dva2FyaXlhbi9hbXA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2023-03-25T08:14:16Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "Bisnis.com",
+            "title": "Wijaya Karya Cetak Rugi Rp59 Miliar Buntut Beban Pokok Membengkak - Bisnis.com",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMidWh0dHBzOi8vbWFya2V0LmJpc25pcy5jb20vcmVhZC8yMDIzMDMyNS8xOTIvMTY0MDQ3My93aWpheWEta2FyeWEtY2V0YWstcnVnaS1ycDU5LW1pbGlhci1idW50dXQtYmViYW4tcG9rb2stbWVtYmVuZ2tha9IBAA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2023-03-25T07:48:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "detikOto",
+            "title": "Intip Lagi Harga Motor Listrik 'Subsidi', Mulai Rp 8 Jutaan! - detikOto",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMiXmh0dHBzOi8vb3RvLmRldGlrLmNvbS9tb3Rvci9kLTY2Mzc0MzgvaW50aXAtbGFnaS1oYXJnYS1tb3Rvci1saXN0cmlrLXN1YnNpZGktbXVsYWktcnAtOC1qdXRhYW7SAWJodHRwczovL290by5kZXRpay5jb20vbW90b3IvZC02NjM3NDM4L2ludGlwLWxhZ2ktaGFyZ2EtbW90b3ItbGlzdHJpay1zdWJzaWRpLW11bGFpLXJwLTgtanV0YWFuL2FtcA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2023-03-25T07:30:19Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "Insight Kontan",
+            "title": "Bulog Akan Impor 2 Juta Ton Beras, 500.000 Ton Dilakukan Segera - Insight Kontan",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMiWWh0dHBzOi8vaW5zaWdodC5rb250YW4uY28uaWQvbmV3cy9idWxvZy1ha2FuLWltcG9yLTItanV0YS10b24tNTAwMDAwLXRvbi1kaWxha3VrYW4tc2VnZXJh0gEA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2023-03-25T06:14:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "detikFood",
+            "title": "Hina Pelayan Karen's Diner, Pelanggan Ini Diusir dari Restoran - detikFood",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMiamh0dHBzOi8vZm9vZC5kZXRpay5jb20vaW5mby1rdWxpbmVyL2QtNjYzNzMwNC9oaW5hLXBlbGF5YW4ta2FyZW5zLWRpbmVyLXBlbGFuZ2dhbi1pbmktZGl1c2lyLWRhcmktcmVzdG9yYW7SAW5odHRwczovL2Zvb2QuZGV0aWsuY29tL2luZm8ta3VsaW5lci9kLTY2MzczMDQvaGluYS1wZWxheWFuLWthcmVucy1kaW5lci1wZWxhbmdnYW4taW5pLWRpdXNpci1kYXJpLXJlc3RvcmFuL2FtcA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2023-03-25T06:00:55Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "KOMPAS.com",
+            "title": "Waskita Targetkan Stok Beton Pracetak 9 Proyek Beres 2023 - Kompas.com - KOMPAS.com",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMic2h0dHBzOi8vd3d3LmtvbXBhcy5jb20vcHJvcGVydGkvcmVhZC8yMDIzLzAzLzI1LzEzMDAwMDcyMS93YXNraXRhLXRhcmdldGthbi1zdG9rLWJldG9uLXByYWNldGFrLTktcHJveWVrLWJlcmVzLTIwMjPSAXNodHRwczovL2FtcC5rb21wYXMuY29tL3Byb3BlcnRpL3JlYWQvMjAyMy8wMy8yNS8xMzAwMDA3MjEvd2Fza2l0YS10YXJnZXRrYW4tc3Rvay1iZXRvbi1wcmFjZXRhay05LXByb3llay1iZXJlcy0yMDIz?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2023-03-25T06:00:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "detikFinance",
+            "title": "30 Skill Ini Banyak Diburu HRD, Kamu Ahli yang Mana? - detikFinance",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMiZGh0dHBzOi8vZmluYW5jZS5kZXRpay5jb20vdGlwcy1kYW4tdHJpay9kLTY2MzY5MjIvMzAtc2tpbGwtaW5pLWJhbnlhay1kaWJ1cnUtaHJkLWthbXUtYWhsaS15YW5nLW1hbmHSAWhodHRwczovL2ZpbmFuY2UuZGV0aWsuY29tL3RpcHMtZGFuLXRyaWsvZC02NjM2OTIyLzMwLXNraWxsLWluaS1iYW55YWstZGlidXJ1LWhyZC1rYW11LWFobGkteWFuZy1tYW5hL2FtcA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2023-03-25T04:00:03Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "Bisnis.com",
+            "title": "Bukaka (BUKK) Layangkan Gugatan, Waskita (WSKT) Kini Buka Suara - Bisnis.com",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMibmh0dHBzOi8vbWFya2V0LmJpc25pcy5jb20vcmVhZC8yMDIzMDMyNS8xOTIvMTY0MDQ1MS9idWtha2EtYnVray1sYXlhbmdrYW4tZ3VnYXRhbi13YXNraXRhLXdza3Qta2luaS1idWthLXN1YXJh0gFtaHR0cHM6Ly9tLmJpc25pcy5jb20vYW1wL3JlYWQvMjAyMzAzMjUvMTkyLzE2NDA0NTEvYnVrYWthLWJ1a2stbGF5YW5na2FuLWd1Z2F0YW4td2Fza2l0YS13c2t0LWtpbmktYnVrYS1zdWFyYQ?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2023-03-25T03:46:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "CNBC Indonesia",
+            "title": "Ini Profil Pendiri Sritex, Perusahaan Karam Tertimbun Utang - CNBC Indonesia",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMieGh0dHBzOi8vd3d3LmNuYmNpbmRvbmVzaWEuY29tL21hcmtldC8yMDIzMDMyNTA4MzIzMC0xNy00MjQ0MDYvaW5pLXByb2ZpbC1wZW5kaXJpLXNyaXRleC1wZXJ1c2FoYWFuLWthcmFtLXRlcnRpbWJ1bi11dGFuZ9IBfGh0dHBzOi8vd3d3LmNuYmNpbmRvbmVzaWEuY29tL21hcmtldC8yMDIzMDMyNTA4MzIzMC0xNy00MjQ0MDYvaW5pLXByb2ZpbC1wZW5kaXJpLXNyaXRleC1wZXJ1c2FoYWFuLWthcmFtLXRlcnRpbWJ1bi11dGFuZy9hbXA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2023-03-25T03:45:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "CNBC Indonesia",
+            "title": "Harga Emas Antam Hari Ini Turun Nih Bun, Waktunya Beli! - CNBC Indonesia",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMic2h0dHBzOi8vd3d3LmNuYmNpbmRvbmVzaWEuY29tL21hcmtldC8yMDIzMDMyNTEwMjA0My0xNy00MjQ0MTYvaGFyZ2EtZW1hcy1hbnRhbS1oYXJpLWluaS10dXJ1bi1uaWgtYnVuLXdha3R1bnlhLWJlbGnSAXdodHRwczovL3d3dy5jbmJjaW5kb25lc2lhLmNvbS9tYXJrZXQvMjAyMzAzMjUxMDIwNDMtMTctNDI0NDE2L2hhcmdhLWVtYXMtYW50YW0taGFyaS1pbmktdHVydW4tbmloLWJ1bi13YWt0dW55YS1iZWxpL2FtcA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2023-03-25T03:25:41Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "disway.id",
+            "title": "Harga BBM Terbaru Turun 1.200 per Liter, Harga Pertalite-Pertamax Pada 1 April 2023 Makin Turun Lagi? Pertamina Buka Suara - disway.id - disway.id",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMilQFodHRwczovL2Rpc3dheS5pZC9yZWFkLzY5MTkwNy9oYXJnYS1iYm0tdGVyYmFydS10dXJ1bi0xMjAwLXBlci1saXRlci1oYXJnYS1wZXJ0YWxpdGUtcGVydGFtYXgtcGFkYS0xLWFwcmlsLTIwMjMtbWFraW4tdHVydW4tbGFnaS1wZXJ0YW1pbmEtYnVrYS1zdWFyYdIBlAFodHRwczovL2Rpc3dheS5pZC9hbXAvNjkxOTA3L2hhcmdhLWJibS10ZXJiYXJ1LXR1cnVuLTEyMDAtcGVyLWxpdGVyLWhhcmdhLXBlcnRhbGl0ZS1wZXJ0YW1heC1wYWRhLTEtYXByaWwtMjAyMy1tYWtpbi10dXJ1bi1sYWdpLXBlcnRhbWluYS1idWthLXN1YXJh?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2023-03-25T03:06:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "detikOto",
+            "title": "Perhatian yang Mau Road Trip Jelajah Sumatera, Selalu Isi Bensin Full Tank! - detikOto",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMib2h0dHBzOi8vb3RvLmRldGlrLmNvbS9tb2JpbC9kLTY2MzcxMjUvcGVyaGF0aWFuLXlhbmctbWF1LXJvYWQtdHJpcC1qZWxhamFoLXN1bWF0ZXJhLXNlbGFsdS1pc2ktYmVuc2luLWZ1bGwtdGFua9IBc2h0dHBzOi8vb3RvLmRldGlrLmNvbS9tb2JpbC9kLTY2MzcxMjUvcGVyaGF0aWFuLXlhbmctbWF1LXJvYWQtdHJpcC1qZWxhamFoLXN1bWF0ZXJhLXNlbGFsdS1pc2ktYmVuc2luLWZ1bGwtdGFuay9hbXA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2023-03-25T03:05:07Z",
+            "content": null
+        }
+    ]
+}

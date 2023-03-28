@@ -1,4 +1,5 @@
 import 'package:get/get.dart';
+import 'package:project/app/modules/tambahkampus/views/editkampus_view.dart';
 
 import '../modules/home/bindings/home_binding.dart';
 import '../modules/home/views/home_view.dart';
@@ -16,6 +17,15 @@ import '../modules/minggu3/views/tugas3_view.dart';
 import '../modules/minggu4/bindings/minggu4_binding.dart';
 import '../modules/minggu4/views/donekampus_view.dart';
 import '../modules/minggu4/views/minggu4_view.dart';
+import '../modules/minggu5/bindings/minggu5_binding.dart';
+import '../modules/minggu5/views/article_detail_view.dart';
+import '../modules/minggu5/views/article_web_view.dart';
+import '../modules/minggu5/views/minggu5_view.dart';
+import '../modules/tambahkampus/bindings/tambahkampus_binding.dart';
+import '../modules/tambahkampus/views/tambahkampus_view.dart';
+import '../modules/tugasminggu5/bindings/tugasminggu5_binding.dart';
+import '../modules/tugasminggu5/views/detailkampusapi_view.dart';
+import '../modules/tugasminggu5/views/tugasminggu5_view.dart';
 
 part 'app_routes.dart';
 
@@ -69,6 +79,37 @@ class AppPages {
       name: _Paths.MINGGU4,
       page: () => Minggu4View(),
       binding: Minggu4Binding(),
+    ),
+    GetPage(
+      name: _Paths.MINGGU5,
+      page: () => const Minggu5View(),
+      binding: Minggu5Binding(),
+    ),
+    GetPage(
+      name: _Paths.ARTICLEDETAIL,
+      page: () => ArticleDetailView(),
+    ),
+    GetPage(
+      name: _Paths.ARTICLEWEB,
+      page: () => ArticleWebView(),
+    ),
+    GetPage(
+      name: _Paths.TUGASMINGGU5,
+      page: () => Tugasminggu5View(),
+      binding: Tugasminggu5Binding(),
+    ),
+    GetPage(
+      name: _Paths.DETAILKAMPUSAPI,
+      page: () => DetailkampusapiView(),
+    ),
+    GetPage(
+      name: _Paths.TAMBAHKAMPUS,
+      page: () => const TambahkampusView(),
+      binding: TambahkampusBinding(),
+    ),
+    GetPage(
+      name: _Paths.EDITKAMPUS,
+      page: () => EditkampusView(),
     ),
   ];
 }

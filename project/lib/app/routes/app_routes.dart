@@ -14,6 +14,13 @@ abstract class Routes {
   static const TUGAS3 = _Paths.TUGAS3;
   static const MINGGU4 = _Paths.MINGGU4;
   static const MINGGU4PROVIDER = _Paths.MINGGU4PROVIDER;
+  static const MINGGU5 = _Paths.MINGGU5;
+  static const ARTICLEDETAIL = _Paths.ARTICLEDETAIL;
+  static const ARTICLEWEB = _Paths.ARTICLEWEB;
+  static const TUGASMINGGU5 = _Paths.TUGASMINGGU5;
+  static const DETAILKAMPUSAPI = _Paths.DETAILKAMPUSAPI;
+  static const TAMBAHKAMPUS = _Paths.TAMBAHKAMPUS;
+  static const EDITKAMPUS = _Paths.EDITKAMPUS;
 }
 
 abstract class _Paths {
@@ -29,4 +36,11 @@ abstract class _Paths {
   static const TUGAS3 = '/tugas3';
   static const MINGGU4 = '/minggu4';
   static const MINGGU4PROVIDER = '/minggu4provider';
+  static const MINGGU5 = '/minggu5';
+  static const ARTICLEDETAIL = '/articledetail';
+  static const ARTICLEWEB = '/articleweb';
+  static const TUGASMINGGU5 = '/tugasminggu5';
+  static const DETAILKAMPUSAPI = '/detailkampusapi';
+  static const TAMBAHKAMPUS = '/tambahkampus';
+  static const EDITKAMPUS = '/editkampus';
 }

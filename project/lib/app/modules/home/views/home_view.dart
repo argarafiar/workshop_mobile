@@ -135,6 +135,37 @@ class HomeView extends GetView<HomeController> {
                   ),
                 ],
               ),
+              Divider(
+                color: Colors.black,
+                thickness: 2,
+              ),
+              SizedBox(height: 20),
+
+              //================================================================ MINGGU 5 =================================================================
+              Text(
+                "Minggu 5",
+                style: TextStyle(
+                  fontSize: 25,
+                ),
+              ),
+              SizedBox(height: 20),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: [
+                  ElevatedButton(
+                    onPressed: () {
+                      Get.toNamed("/minggu5");
+                    },
+                    child: Text("Percobaan http"),
+                  ),
+                  ElevatedButton(
+                    onPressed: () {
+                      Get.toNamed("/tugasminggu5");
+                    },
+                    child: Text("Tugas CRUD"),
+                  ),
+                ],
+              ),
             ],
           ),
         ),
