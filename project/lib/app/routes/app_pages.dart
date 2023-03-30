@@ -104,7 +104,7 @@ class AppPages {
     ),
     GetPage(
       name: _Paths.TAMBAHKAMPUS,
-      page: () => const TambahkampusView(),
+      page: () => TambahKampusView(),
       binding: TambahkampusBinding(),
     ),
     GetPage(

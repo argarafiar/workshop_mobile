@@ -118,16 +118,16 @@ class UserModel {
   factory UserModel.fromJson(Map<String, dynamic> json) => UserModel(
         status: json['status'],
         totalResults: json['totalResults'],
-        // articles: List<Article>.from((json["articles"] as List)
-        //     .map((x) => Article.fromJson(x))
-        //     .where((article) =>
-        //         article.author != null &&
-        //         article.urlToImage != null &&
-        //         article.publishedAt != null &&
-        //         article.content != null)),
+        articles: List<Article>.from((json["articles"] as List)
+            .map((x) => Article.fromJson(x))
+            .where((article) =>
+                article.urlToImage != null &&
+                article.author != null &&
+                article.publishedAt != null &&
+                article.content != null)),
 
-        articles: List<Article>.from(
-            json["articles"].map((x) => Article.fromJson(x))),
+        // articles: List<Article>.from(
+        //     json["articles"].map((x) => Article.fromJson(x))),
       );
 
   Map<String, dynamic> toJson() => {
@@ -150,7 +150,7 @@ class Article {
   });
 
   Source source;
-  String author;
+  dynamic author;
   String title;
   dynamic description;
   String url;
@@ -187,12 +187,12 @@ class Source {
     required this.name,
   });
 
-  Id id;
-  Name name;
+  Id? id;
+  Name? name;
 
   factory Source.fromJson(Map<String, dynamic> json) => Source(
-        id: idValues.map[json["id"]]!,
-        name: nameValues.map[json["name"]]!,
+        id: idValues.map[json["id"]],
+        name: nameValues.map[json["name"]],
       );
 
   Map<String, dynamic> toJson() => {

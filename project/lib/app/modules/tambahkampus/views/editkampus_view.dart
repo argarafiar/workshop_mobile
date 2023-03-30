@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
 import '../controllers/tambahkampus_controller.dart';
+import 'dart:io';
 
 class EditkampusView extends GetView {
   EditkampusView({Key? key}) : super(key: key);
@@ -17,11 +18,12 @@ class EditkampusView extends GetView {
         hari = data['hari'],
         jam_buka = data['jam_buka'],
         jam_tutup = data['jam_tutup'],
-        tiket = data['tiket'],
-        banner = data['banner'],
-        foto1 = data['foto1'],
-        foto2 = data['foto2'],
-        foto3 = data['foto3'];
+        tiket = data['tiket'];
+
+    File? _banner;
+    File? _foto1;
+    File? _foto2;
+    File? _foto3;
 
     return Scaffold(
       appBar: AppBar(
@@ -173,57 +175,41 @@ class EditkampusView extends GetView {
               height: 10,
             ),
             //form banner
-            TextFormField(
-              initialValue: data['banner'],
-              decoration: const InputDecoration(
-                labelText: "Link Banner",
-                border: OutlineInputBorder(),
-              ),
-              onChanged: (value) {
-                banner = value;
+            ElevatedButton(
+              onPressed: () {
+                controller.getImage(ImageType.banner);
               },
+              child: Text("Pilih Banner"),
             ),
             const SizedBox(
               height: 10,
             ),
             //form foto1
-            TextFormField(
-              initialValue: data['foto1'],
-              decoration: const InputDecoration(
-                labelText: "Link Foto 1",
-                border: OutlineInputBorder(),
-              ),
-              onChanged: (value) {
-                foto1 = value;
+            ElevatedButton(
+              onPressed: () {
+                controller.getImage(ImageType.foto1);
               },
+              child: Text("Pilih Foto 1"),
             ),
             const SizedBox(
               height: 10,
             ),
             //form foto2
-            TextFormField(
-              initialValue: data['foto2'],
-              decoration: const InputDecoration(
-                labelText: "Link Foto 2",
-                border: OutlineInputBorder(),
-              ),
-              onChanged: (value) {
-                foto2 = value;
+            ElevatedButton(
+              onPressed: () {
+                controller.getImage(ImageType.foto2);
               },
+              child: Text("Pilih Foto 2"),
             ),
             const SizedBox(
               height: 10,
             ),
             //form foto3
-            TextFormField(
-              initialValue: data['foto3'],
-              decoration: const InputDecoration(
-                labelText: "Link Foto 3",
-                border: OutlineInputBorder(),
-              ),
-              onChanged: (value) {
-                foto3 = value;
+            ElevatedButton(
+              onPressed: () {
+                controller.getImage(ImageType.foto3);
               },
+              child: Text("Pilih Foto 3"),
             ),
             const SizedBox(
               height: 20,
@@ -238,10 +224,6 @@ class EditkampusView extends GetView {
                 controller.jam_buka = jam_buka;
                 controller.jam_tutup = jam_tutup;
                 controller.tiket = tiket;
-                controller.banner = banner;
-                controller.foto1 = foto1;
-                controller.foto2 = foto2;
-                controller.foto3 = foto3;
                 controller.editKampus(data['id']);
               },
               child: const Text("Edit Kampus"),

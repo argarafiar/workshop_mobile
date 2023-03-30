@@ -84,9 +84,9 @@ class CardArticle extends StatelessWidget {
     return ListTile(
       contentPadding: EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
       leading: Hero(
-        tag: "image", //article.urlToImage,
+        tag: article.urlToImage, //article.urlToImage,
         child: Image.network(
-          "https://akcdn.detik.net.id/visual/2023/03/25/takjil-gratis-di-kampung-ramadan-jogokariyan-2_169.jpeg?w=970&q=80",
+          article.urlToImage,
           width: 100,
         ),
       ),

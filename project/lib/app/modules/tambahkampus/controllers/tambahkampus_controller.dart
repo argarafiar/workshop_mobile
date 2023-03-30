@@ -17,10 +17,6 @@ class TambahkampusController extends GetxController {
   //TODO: Implement TambahkampusController
   String nama = "";
   String alamat = "";
-  String banner = "";
-  String foto1 = "";
-  String foto2 = "";
-  String foto3 = "";
   String bio = "";
   String hari = "";
   String jam_buka = "";
@@ -33,38 +29,35 @@ class TambahkampusController extends GetxController {
   File? _foto3;
 
   Future tambahKampus() async {
-    List<int> bannerBytes = await _banner!.readAsBytes();
-    List<int> foto1Bytes = await _foto1!.readAsBytes();
-    List<int> foto2Bytes = await _foto2!.readAsBytes();
-    List<int> foto3Bytes = await _foto3!.readAsBytes();
-
-    String bannerBase64 = base64Encode(bannerBytes);
-    String foto1Base64 = base64Encode(foto1Bytes);
-    String foto2Base64 = base64Encode(foto2Bytes);
-    String foto3Base64 = base64Encode(foto3Bytes);
-
+    //kirim gambar ke server
     try {
-      var res =
-          await http.post(Uri.parse(ApiUrl.baseUrl + "api/kampus/"), body: {
-        "nama": nama,
-        "alamat": alamat,
-        "banner": bannerBase64,
-        "foto1": foto1Base64,
-        "foto2": foto2Base64,
-        "foto3": foto3Base64,
-        "bio": bio,
-        "hari": hari,
-        "jam_buka": jam_buka,
-        "jam_tutup": jam_tutup,
-        "tiket": tiket,
-      });
+      var request = http.MultipartRequest(
+          "POST", Uri.parse(ApiUrl.baseUrl + "api/kampus"));
+      request.fields['nama'] = nama;
+      request.fields['alamat'] = alamat;
+      request.files
+          .add(await http.MultipartFile.fromPath("banner", _banner!.path));
+      request.files
+          .add(await http.MultipartFile.fromPath("foto1", _foto1!.path));
+      request.files
+          .add(await http.MultipartFile.fromPath("foto2", _foto2!.path));
+      request.files
+          .add(await http.MultipartFile.fromPath("foto3", _foto3!.path));
+      request.fields['bio'] = bio;
+      request.fields['hari'] = hari;
+      request.fields['jam_buka'] = jam_buka;
+      request.fields['jam_tutup'] = jam_tutup;
+      request.fields['tiket'] = tiket;
 
-      if (res.statusCode == 201) {
-        Get.snackbar("Berhasil", "Kampus berhasil ditambahkan");
+      var response = await request.send();
+
+      if (response.statusCode == 201) {
+        print("Kampus berhasil ditambahkan");
+        Get.snackbar("Berhasil", "kampus berhasil ditambahkan");
         Get.offAllNamed("/tugasminggu5");
       } else {
-        print("Gagal: ${res.statusCode} ${res.body}");
-        Get.snackbar("Gagal", "Kampus gagal ditambahkan");
+        print("Kampus gagal ditambahkan");
+        Get.snackbar("Gagal", "kampus gagal ditambahkan");
       }
     } catch (e) {
       print("Error: $e");
@@ -90,6 +83,7 @@ class TambahkampusController extends GetxController {
       if (type == ImageType.banner) {
         _banner = file;
         print("Banner berhasil diambil");
+        return Image.file(_banner!);
       } else if (type == ImageType.foto1) {
         _foto1 = file;
         print("Foto 1 berhasil diambil");
@@ -105,28 +99,35 @@ class TambahkampusController extends GetxController {
 
   Future editKampus(int id) async {
     try {
-      var res =
-          await http.put(Uri.parse(ApiUrl.baseUrl + "api/kampus/${id}"), body: {
-        "nama": nama,
-        "alamat": alamat,
-        "banner": banner,
-        "foto1": foto1,
-        "foto2": foto2,
-        "foto3": foto3,
-        "bio": bio,
-        "hari": hari,
-        "jam_buka": jam_buka,
-        "jam_tutup": jam_tutup,
-        "tiket": tiket,
-      });
+      //update data
+      var request = http.MultipartRequest(
+          "PUT", Uri.parse(ApiUrl.baseUrl + "api/kampus/$id/"));
+      request.fields['nama'] = nama;
+      request.fields['alamat'] = alamat;
+      request.fields['bio'] = bio;
+      request.fields['hari'] = hari;
+      request.fields['jam_buka'] = jam_buka;
+      request.fields['jam_tutup'] = jam_tutup;
+      request.fields['tiket'] = tiket;
+      request.files
+          .add(await http.MultipartFile.fromPath("banner", _banner!.path));
+      request.files
+          .add(await http.MultipartFile.fromPath("foto1", _foto1!.path));
+      request.files
+          .add(await http.MultipartFile.fromPath("foto2", _foto2!.path));
+      request.files
+          .add(await http.MultipartFile.fromPath("foto3", _foto3!.path));
 
-      print(res.body);
+      print(request.fields);
+      //kirim request
+      var res = await request.send();
 
       if (res.statusCode == 200) {
         Get.snackbar("Berhasil", "Kampus berhasil diubah");
         Get.offAllNamed("/tugasminggu5");
       } else {
         Get.snackbar("Gagal", "Kampus gagal diubah");
+        print(await res.stream.bytesToString());
       }
     } catch (e) {
       print("ERROR: $e");

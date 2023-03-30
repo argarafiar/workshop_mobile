@@ -22,7 +22,7 @@ class Tugasminggu5Controller extends GetxController {
 
 class ApiUrl {
   static const String baseUrl =
-      "https://a0db-2001-448a-50e0-4903-35da-a51c-d5a4-7640.ap.ngrok.io/";
+      "https://d648-2001-448a-50e0-4903-35da-a51c-d5a4-7640.ap.ngrok.io/";
 
   static const String imgUrl = baseUrl + "api/kampus/image/";
 }

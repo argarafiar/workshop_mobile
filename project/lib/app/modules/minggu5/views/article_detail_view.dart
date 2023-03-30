@@ -19,9 +19,11 @@ class ArticleDetailView extends GetView {
         child: Column(
           children: [
             Hero(
-              tag: "image",
+              tag: article.urlToImage ?? "",
               child: Image.network(
-                  "https://akcdn.detik.net.id/visual/2023/03/25/takjil-gratis-di-kampung-ramadan-jogokariyan-2_169.jpeg?w=970&q=80"),
+                article.urlToImage ?? "",
+                fit: BoxFit.cover,
+              ),
             ),
             Padding(
               padding: EdgeInsets.all(18),
@@ -43,7 +45,7 @@ class ArticleDetailView extends GetView {
                   SizedBox(height: 10),
                   ElevatedButton(
                       onPressed: () {
-                        print("coba");
+                        Get.toNamed('/articleweb', arguments: article.url);
                       },
                       child: Text("Read More")),
                 ],
