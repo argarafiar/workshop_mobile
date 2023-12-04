@@ -2,23 +2,23 @@ import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
 import 'package:project/app/modules/widgets/appbar_widget.dart';
-import '../controllers/ganjilgenap_controller.dart';
+import '../controllers/kelipatan_controller.dart';
 
-class GanjilgenapView extends GetView<GanjilGenapController> {
-  const GanjilgenapView({Key? key}) : super(key: key);
+class KelipatanView extends GetView<KelipatanController> {
+  const KelipatanView({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBarWidget(
-          title: 'Ganjil Genap',
+          title: 'Kelipatan',
         ),
         body: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              const Text(
+              Text(
                 'You have pushed the button this many times:',
               ),
               Obx(
@@ -41,7 +41,7 @@ class GanjilgenapView extends GetView<GanjilGenapController> {
         ),
         floatingActionButton: FloatingActionButton(
           onPressed: () {
-            controller.ganjilgenap();
+            controller.kelipatan();
           },
           tooltip: 'Increment',
           child: const Icon(Icons.add),

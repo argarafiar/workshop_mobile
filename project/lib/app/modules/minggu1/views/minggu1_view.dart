@@ -1,17 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:project/app/modules/widgets/appbar_widget.dart';
 
-import 'package:get/get.dart';
-
-import '../controllers/minggu1_controller.dart';
-
-class Minggu1View extends GetView<Minggu1Controller> {
+class Minggu1View extends StatelessWidget {
   const Minggu1View({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Minggu1View'),
-        centerTitle: true,
+      appBar: AppBarWidget(
+        title: 'Minggu 1',
       ),
       body: Center(
         child: Text(

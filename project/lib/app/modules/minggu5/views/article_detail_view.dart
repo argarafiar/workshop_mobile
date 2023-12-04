@@ -1,27 +1,26 @@
 import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
-import '../../../data/models/minggu5_model_model.dart';
+import 'package:project/app/modules/minggu5/controllers/articledetail_controller.dart';
+import 'package:project/app/routes/app_pages.dart';
+import '../../widgets/appbar_widget.dart';
 
-class ArticleDetailView extends GetView {
+class ArticleDetailView extends GetView<ArticleDetailController> {
   ArticleDetailView({Key? key}) : super(key: key);
-
-  final Article article = Get.arguments;
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('News App'),
-        centerTitle: true,
+      appBar: AppBarWidget(
+        title: 'News App',
       ),
       body: SingleChildScrollView(
         child: Column(
           children: [
             Hero(
-              tag: article.urlToImage ?? "",
+              tag: controller.article.urlToImage!,
               child: Image.network(
-                article.urlToImage ?? "",
+                controller.article.urlToImage!,
                 fit: BoxFit.cover,
               ),
             ),
@@ -29,25 +28,27 @@ class ArticleDetailView extends GetView {
               padding: EdgeInsets.all(18),
               child: Column(
                 children: [
-                  Text(article.description ?? ""),
+                  Text(controller.article.description!),
                   Divider(
                     color: Colors.grey,
                   ),
-                  Text(article.title),
+                  Text(controller.article.title!),
                   Divider(
                     color: Colors.grey,
                   ),
-                  Text("Date : ${article.publishedAt}"),
+                  Text("Date : ${controller.article.publishedAt}"),
                   SizedBox(height: 10),
-                  Text("Author : ${article.author}"),
+                  Text("Author : ${controller.article.author}"),
                   Divider(color: Colors.grey),
-                  Text(article.content ?? ""),
+                  Text(controller.article.content!),
                   SizedBox(height: 10),
                   ElevatedButton(
-                      onPressed: () {
-                        Get.toNamed('/articleweb', arguments: article.url);
-                      },
-                      child: Text("Read More")),
+                    onPressed: () {
+                      Get.toNamed(Routes.ARTICLEWEB,
+                          arguments: controller.article.url);
+                    },
+                    child: Text("Read More"),
+                  ),
                 ],
               ),
             ),

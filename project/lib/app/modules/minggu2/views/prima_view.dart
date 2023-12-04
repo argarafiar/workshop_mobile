@@ -2,16 +2,17 @@ import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
 import 'package:project/app/modules/widgets/appbar_widget.dart';
-import '../controllers/ganjilgenap_controller.dart';
 
-class GanjilgenapView extends GetView<GanjilGenapController> {
-  const GanjilgenapView({Key? key}) : super(key: key);
+import '../controllers/prima_controller.dart';
+
+class PrimaView extends GetView<PrimaController> {
+  const PrimaView({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBarWidget(
-          title: 'Ganjil Genap',
+          title: 'Prima',
         ),
         body: Center(
           child: Column(
@@ -23,7 +24,7 @@ class GanjilgenapView extends GetView<GanjilGenapController> {
               ),
               Obx(
                 () => Text(
-                  controller.counter.value.toString(),
+                  controller.counter.toString(),
                   style: Theme.of(context).textTheme.headline4,
                 ),
               ),
@@ -41,7 +42,7 @@ class GanjilgenapView extends GetView<GanjilGenapController> {
         ),
         floatingActionButton: FloatingActionButton(
           onPressed: () {
-            controller.ganjilgenap();
+            controller.primaViewer();
           },
           tooltip: 'Increment',
           child: const Icon(Icons.add),

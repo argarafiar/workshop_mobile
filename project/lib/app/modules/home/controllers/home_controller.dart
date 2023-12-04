@@ -1,23 +1,14 @@
 import 'package:get/get.dart';
+import '../data/home_data.dart';
 
 class HomeController extends GetxController {
-  //TODO: Implement HomeController
+  late List week;
 
-  final count = 0.obs;
-  @override
-  void onInit() {
-    super.onInit();
+  HomeController() {
+    week = getWeek();
   }
 
-  @override
-  void onReady() {
-    super.onReady();
+  List getWeek() {
+    return weekApi;
   }
-
-  @override
-  void onClose() {
-    super.onClose();
-  }
-
-  void increment() => count.value++;
 }
